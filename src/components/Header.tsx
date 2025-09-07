@@ -26,7 +26,7 @@ const Header = () => {
             <img 
               src={infinityLogo} 
               alt="Infinity Network Studio" 
-              className="h-20 w-auto object-contain"
+              className="h-26 w-auto object-contain"
             />
             <span className="font-bold text-lg text-primary hidden sm:block">
               Infinity Network Studio
