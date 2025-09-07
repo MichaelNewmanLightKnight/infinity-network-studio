@@ -16,8 +16,8 @@ const Portfolio = () => {
             </h2>
             <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Since we're at the start of our journey, this section highlights works in progress 
-              and concept development. Each project represents our commitment to authentic storytelling.
+              We're at the start our journey, this section will highlight works in progress 
+              and concept development. Each project represents our commitment to authentic and inspirational storytelling.
             </p>
           </div>
 
