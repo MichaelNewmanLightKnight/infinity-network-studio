@@ -160,7 +160,7 @@ const Services = () => {
               </div>
               
               <blockquote className="text-primary font-medium text-xl italic border-l-4 border-secondary pl-6 mt-8">
-                "At Infinity Network Studio, every story has infinite possibilities. Let's discover yours together."
+                "Your story is waiting to be told. We're here to make sure the world can't look away."
               </blockquote>
             </Card>
           </div>
