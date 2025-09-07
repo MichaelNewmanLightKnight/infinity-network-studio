@@ -1,7 +1,130 @@
 const Talents = () => {
   return (
-    <section id="talent" className="py-24 bg-background">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+    <section id="careers" className="py-24 bg-background">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
+        {/* Prominent Welcome Section */}
+        <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl p-8 md:p-12 mb-16 border border-primary/20">
+          <div className="text-center mb-8">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">
+              Welcome to Infinity Network Studio
+            </h1>
+            <p className="text-xl md:text-2xl text-secondary font-semibold">
+              Where Visionaries Create Tomorrow's Content Today
+            </p>
+          </div>
+          
+          <div className="prose prose-lg mx-auto text-foreground max-w-4xl">
+            <p className="text-lg leading-relaxed mb-6">
+              At Infinity Network Studio, we don't just produce content – we craft experiences that resonate, inspire, and transform. As a cutting-edge studio specializing in premium videos, podcasts, and documentaries, we're on a mission to redefine storytelling for the digital age.
+            </p>
+            
+            <h3 className="text-2xl font-bold text-primary mb-4">Our Vision: Infinite Possibilities, Boundless Creativity</h3>
+            <p className="text-lg leading-relaxed mb-6">
+              We know that the most powerful stories emerge when brilliant minds collaborate without limits. Our studio represents the convergence of artistic excellence and technological innovation, where every project becomes a masterpiece that captivates global audiences.
+            </p>
+            
+            <p className="text-lg leading-relaxed mb-8 text-accent font-medium">
+              As we launch this exciting journey, we're seeking exceptional talent to join our founding team – individuals who don't just want a job, but crave the opportunity to build something revolutionary from the ground up.
+            </p>
+            
+            <div className="bg-card rounded-xl p-6 mb-8">
+              <h3 className="text-2xl font-bold text-primary mb-6">Why Choose Infinity Network Studio?</h3>
+              <ul className="space-y-3 text-lg">
+                <li><strong className="text-primary">Ground-Floor Opportunity:</strong> Be part of our origin story and shape the company's DNA</li>
+                <li><strong className="text-primary">Multi-Disciplinary Growth:</strong> Expand your skillset across multiple creative domains</li>
+                <li><strong className="text-primary">Creative Freedom:</strong> Work on diverse, exciting projects that challenge conventional thinking</li>
+                <li><strong className="text-primary">Collaborative Culture:</strong> Join a tight-knit team where every voice matters</li>
+                <li><strong className="text-primary">Premium Quality Focus:</strong> Create content that sets industry standards</li>
+                <li><strong className="text-primary">Career Acceleration:</strong> Fast-track your professional development in a dynamic environment</li>
+              </ul>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-8 mb-8">
+              <div className="bg-card rounded-xl p-6">
+                <h4 className="text-xl font-bold text-secondary mb-4">1. Graphics, Web & Animation Designer</h4>
+                <p className="text-base leading-relaxed">
+                  Transform ideas into stunning visual experiences. Lead our brand identity while creating compelling graphics, animations, and digital assets that bring stories to life. Master of Adobe Creative Suite with web design expertise, you'll shape how the world sees our content.
+                </p>
+              </div>
+              
+              <div className="bg-card rounded-xl p-6">
+                <h4 className="text-xl font-bold text-secondary mb-4">2. Video & Audio Editor</h4>
+                <p className="text-base leading-relaxed">
+                  Be the architect of our sonic and visual narratives. Craft seamless edits that elevate raw footage into cinematic masterpieces. Your technical mastery and storytelling instincts will define the quality that sets us apart.
+                </p>
+              </div>
+              
+              <div className="bg-card rounded-xl p-6">
+                <h4 className="text-xl font-bold text-secondary mb-4">3. Videographer/Camera Operator</h4>
+                <p className="text-base leading-relaxed">
+                  Capture the moments that matter. Your lens will be the first step in creating content that moves audiences. From intimate interviews to dynamic documentaries, you'll bring technical excellence and artistic vision to every shot.
+                </p>
+              </div>
+              
+              <div className="bg-card rounded-xl p-6">
+                <h4 className="text-xl font-bold text-secondary mb-4">4. Female Presenter/Host</h4>
+                <p className="text-base leading-relaxed">
+                  Become the voice that connects with millions. Lead conversations that matter, conduct compelling interviews, and represent our brand with authenticity and charisma. Your presence will be the bridge between our stories and our audience.
+                </p>
+              </div>
+            </div>
+            
+            <div className="bg-gradient-to-r from-accent/10 to-primary/10 rounded-xl p-6 mb-8">
+              <h3 className="text-2xl font-bold text-primary mb-4">Flexible Engagement Options</h3>
+              <div className="grid md:grid-cols-2 gap-4">
+                <div>
+                  <h4 className="text-lg font-semibold text-secondary">STAFF POSITIONS:</h4>
+                  <p>Full-time roles with comprehensive benefits and growth opportunities</p>
+                </div>
+                <div>
+                  <h4 className="text-lg font-semibold text-secondary">FREELANCE PARTNERSHIPS:</h4>
+                  <p>Project-based collaborations with competitive rates and creative freedom</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-card rounded-xl p-6 mb-8">
+              <h3 className="text-2xl font-bold text-primary mb-6">What We're Looking For</h3>
+              <p className="text-lg font-semibold text-secondary mb-4">The Infinity Network Studio Team Member:</p>
+              <ul className="space-y-2 text-lg">
+                <li>• <strong>Versatile Creators</strong> who thrive in multi-disciplinary environments</li>
+                <li>• <strong>Learning Enthusiasts</strong> who quickly master new skills and adapt to evolution</li>
+                <li>• <strong>Collaborative Leaders</strong> who elevate team performance</li>
+                <li>• <strong>Quality Champions</strong> who maintain excellence across all contributions</li>
+                <li>• <strong>Growth Catalysts</strong> who take ownership beyond assigned responsibilities</li>
+              </ul>
+            </div>
+            
+            <div className="text-center bg-primary/5 rounded-xl p-6 mb-8">
+              <h3 className="text-2xl font-bold text-primary mb-4">Skills vs. Credentials: Talent Wins</h3>
+              <p className="text-lg">
+                We value demonstrable skills over academic credentials. Whether you're a self-taught creative genius or a formally trained professional – if you can prove your abilities, we want to meet you.
+              </p>
+            </div>
+            
+            <div className="bg-gradient-to-r from-secondary/10 to-accent/10 rounded-xl p-8 text-center">
+              <h3 className="text-2xl font-bold text-primary mb-6">Application Process</h3>
+              <h4 className="text-xl font-semibold text-secondary mb-4">Ready to Join the Revolution?</h4>
+              <p className="text-lg mb-6">Submit your application including:</p>
+              <ul className="text-left max-w-2xl mx-auto space-y-2 mb-6">
+                <li><strong>Application Letter:</strong> Tell us your story and why Infinity Network Studio is your next chapter</li>
+                <li><strong>CV/Resume:</strong> Showcase your experience and achievements</li>
+                <li><strong>Portfolio/Demo Reel:</strong> Let your work speak for itself</li>
+              </ul>
+              <p className="text-lg mb-8">
+                <strong>What Happens Next:</strong> Every candidate will participate in our comprehensive interview process, including practical skills assessments. We believe in seeing talent in action, not just on paper.
+              </p>
+              <div className="bg-primary text-primary-foreground rounded-lg p-6">
+                <h4 className="text-xl font-bold mb-2">Take the Leap</h4>
+                <p className="text-lg">
+                  This is more than a job opportunity – it's your invitation to be part of something extraordinary. Join us in creating content that doesn't just entertain, but inspires, educates, and transforms.
+                </p>
+                <p className="text-xl font-bold mt-4">Apply Today.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
             Why Work at Infinity Network Studio?

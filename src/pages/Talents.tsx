@@ -7,7 +7,7 @@ const TalentsPage = () => {
     document.title = "Careers - Infinity Network Studio";
     document.querySelector('meta[name="description"]')?.setAttribute(
       "content", 
-      "Join our team of cultural architects. Where creativity meets possibility in shaping Africa's creative economy."
+      "Join our founding team at Infinity Network Studio. Where visionaries create tomorrow's content today."
     );
   }, []);
 
