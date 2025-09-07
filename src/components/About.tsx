@@ -59,7 +59,7 @@ const About = () => {
                 </div>
                 <div className="relative">
                   <img 
-                    src="/lovable-uploads/bfb457d9-3548-48be-908e-58934a1a8447.png" 
+                    src="/lovable-uploads/817f2f3c-a92a-4b48-965d-8da2783d5b69.png" 
                     alt="Oladapo reflecting on inspiring stories that transformed his perspective"
                     className="w-full h-auto rounded-lg shadow-md"
                   />
