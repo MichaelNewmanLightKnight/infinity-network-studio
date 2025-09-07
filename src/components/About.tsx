@@ -56,7 +56,7 @@ const About = () => {
               <h3 className="text-2xl font-semibold text-primary mb-6">The Secret Power of Stories</h3>
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  Oladapo always thought of himself as an ordinary man. He worked, paid his bills, and scrolled endlessly on his phone at night. But one evening, he stumbled upon a documentary about how a small group of young Africans had built a tech company that disrupted global markets. It wasn't just the glossy shots or the polished interviews that caught him—it was the story. Suddenly, he saw people who looked like him doing extraordinary things. The facts of their revenue growth, market expansion, and global partnerships gave the story credibility, but it was the narrative that shifted something deep inside Oladapo: maybe this could be me too.
+                  Oladapo always thought of himself as an ordinary man. He worked, paid his bills, and scrolled endlessly on his phone at night. But one evening, he stumbled upon a documentary about how a small group of young Africans had built a tech company that was bought by Stripe for $200million. It wasn't just the glossy shots or the polished interviews that caught him—it was the story. Suddenly, he saw people who looked like him doing extraordinary things. The facts of their revenue growth, market expansion, and global partnerships gave the story credibility, but it was the narrative that shifted something deep inside Oladapo: maybe this could be me too.
                 </p>
                 
                 <p>
