@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -30,10 +31,12 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 animate-fade-in">
-            <Button variant="outline" size="lg" className="font-semibold bg-white/10 border-white/30 text-white hover:bg-white/20">
-              Explore Our Story
-              <ArrowRight className="w-5 h-5 ml-2" />
-            </Button>
+            <Link to="/about">
+              <Button variant="outline" size="lg" className="font-semibold bg-white/10 border-white/30 text-white hover:bg-white/20">
+                Explore Our Story
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Button>
+            </Link>
           </div>
 
         </div>
@@ -47,13 +50,13 @@ const Hero = () => {
                 title: "Investors",
                 subtitle: "See the Opportunity",
                 description: "Be part of Africa's creative future from day one",
-                href: "#investors"
+                href: "/investors"
               },
               {
-                title: "Talent",
+                title: "Careers",
                 subtitle: "Be Part of Our Beginning",
                 description: "Join our network of creative professionals",
-                href: "#talent"
+                href: "/careers"
               },
               {
                 title: "Partners",
@@ -68,16 +71,29 @@ const Hero = () => {
                 href: "#services"
               }
             ].map((pathway, index) => (
-              <a
-                key={pathway.title}
-                href={pathway.href}
-                className="group p-6 rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105"
-              >
-                <h4 className="font-semibold text-primary-foreground mb-1">{pathway.title}</h4>
-                <div className="text-secondary text-sm font-medium mb-2">{pathway.subtitle}</div>
-                <p className="text-primary-foreground/70 text-sm">{pathway.description}</p>
-                <ArrowRight className="w-4 h-4 text-secondary mt-3 group-hover:translate-x-1 transition-transform" />
-              </a>
+              pathway.href.startsWith('/') ? (
+                <Link
+                  key={pathway.title}
+                  to={pathway.href}
+                  className="group p-6 rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105"
+                >
+                  <h4 className="font-semibold text-primary-foreground mb-1">{pathway.title}</h4>
+                  <div className="text-secondary text-sm font-medium mb-2">{pathway.subtitle}</div>
+                  <p className="text-primary-foreground/70 text-sm">{pathway.description}</p>
+                  <ArrowRight className="w-4 h-4 text-secondary mt-3 group-hover:translate-x-1 transition-transform" />
+                </Link>
+              ) : (
+                <a
+                  key={pathway.title}
+                  href={pathway.href}
+                  className="group p-6 rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105"
+                >
+                  <h4 className="font-semibold text-primary-foreground mb-1">{pathway.title}</h4>
+                  <div className="text-secondary text-sm font-medium mb-2">{pathway.subtitle}</div>
+                  <p className="text-primary-foreground/70 text-sm">{pathway.description}</p>
+                  <ArrowRight className="w-4 h-4 text-secondary mt-3 group-hover:translate-x-1 transition-transform" />
+                </a>
+              )
             ))}
           </div>
         </div>
