@@ -53,17 +53,13 @@ const About = () => {
           {/* Origin Story */}
           <div className="mb-20">
             <Card className="p-8 sm:p-12 shadow-elegant">
-              <div className="grid lg:grid-cols-2 gap-8 items-start mb-8">
-                <div>
-                  <h3 className="text-2xl font-semibold text-primary mb-6">The Secret Power of Stories</h3>
-                </div>
-                <div className="relative">
-                  <img 
-                    src="/lovable-uploads/817f2f3c-a92a-4b48-965d-8da2783d5b69.png" 
-                    alt="Oladapo reflecting on inspiring stories that transformed his perspective"
-                    className="w-full h-auto rounded-lg shadow-md"
-                  />
-                </div>
+              <h3 className="text-2xl font-semibold text-primary text-center mb-8">The Secret Power of Stories</h3>
+              <div className="flex justify-center mb-8">
+                <img 
+                  src="/lovable-uploads/817f2f3c-a92a-4b48-965d-8da2783d5b69.png" 
+                  alt="Oladapo reflecting on inspiring stories that transformed his perspective"
+                  className="max-w-md w-full h-auto rounded-lg shadow-md"
+                />
               </div>
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
