@@ -59,10 +59,10 @@ const Hero = () => {
                 href: "/careers"
               },
               {
-                title: "Clients",
+                title: "Services",
                 subtitle: "Explore What We Can Do",
                 description: "Discover our creative capabilities",
-                href: "#services"
+                href: "/services"
               }
             ].map((pathway, index) => (
               pathway.href.startsWith('/') ? (
