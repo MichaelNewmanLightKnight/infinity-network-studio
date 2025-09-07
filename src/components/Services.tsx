@@ -134,7 +134,7 @@ const Services = () => {
               <h2 className="font-bold text-primary text-3xl mb-6">Ready to Create Something Extraordinary?</h2>
               <p className="text-muted-foreground mb-8 max-w-3xl mx-auto text-lg leading-relaxed">
                 As a fresh voice in the creative landscape, we bring unbounded curiosity, personalized attention, and innovative approaches to every collaboration. 
-                We're not just service providers—we're creative partners who invest in your success.
+                We're not just service providers—we're creative partners who invest in your success. And we practice what we preach, we also have our video and podcast channels.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
