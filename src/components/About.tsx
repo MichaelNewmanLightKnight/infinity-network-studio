@@ -53,17 +53,38 @@ const About = () => {
           {/* Origin Story */}
           <div className="mb-20">
             <Card className="p-8 sm:p-12 shadow-elegant">
-              <h3 className="text-2xl font-semibold text-primary mb-6">Origin Story</h3>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Infinity Network Studio was founded by three storytellers who believe Africa's creative economy 
-                deserves a new wave of platforms. Our journey is just beginning — but our vision is bold: to create 
-                documentaries, podcasts, and video content that travel beyond borders.
-              </p>
-              <div className="bg-secondary/10 p-6 rounded-lg border-l-4 border-secondary">
-                <h4 className="font-semibold text-primary mb-2">Our Vision</h4>
-                <p className="text-muted-foreground">
-                  We aim to become a creative hub where stories are born, crafted, and shared with the world — 
-                  balancing cultural authenticity with global appeal.
+              <h3 className="text-2xl font-semibold text-primary mb-6">The Secret Power of Stories</h3>
+              <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
+                <p>
+                  Oladapo always thought of himself as an ordinary man. He worked, paid his bills, and scrolled endlessly on his phone at night. But one evening, he stumbled upon a documentary about how a small group of young Africans had built a tech company that disrupted global markets. It wasn't just the glossy shots or the polished interviews that caught him—it was the story. Suddenly, he saw people who looked like him doing extraordinary things. The facts of their revenue growth, market expansion, and global partnerships gave the story credibility, but it was the narrative that shifted something deep inside Oladapo: maybe this could be me too.
+                </p>
+                
+                <p>
+                  That's the secret power of stories—they don't just inform us, they reshape us. A statistic on climate change might make you frown, but a story about a farmer in Kenya who lost his crops to erratic rains makes you care. A chart about rising healthcare costs is abstract, but hearing about a single mother working two jobs just to pay for insulin connects the dots in a visceral way. Facts are the bones, but stories are the flesh that make them human.
+                </p>
+                
+                <p>
+                  History proves this over and over again. Nations have risen and fallen not just because of resources or armies, but because of the stories they told about themselves. America was built on the story of freedom and opportunity. South Africa stitched together a new identity on the story of resilience after apartheid. And in our time, movements like #MeToo and #EndSARS erupted into global consciousness because the right stories were finally told loudly enough to force change. The facts of injustice were always there—but until the stories pierced the world's conscience, nothing shifted.
+                </p>
+                
+                <p>
+                  Even in our personal lives, the stories we tell ourselves define our trajectory. Two graduates can leave university without jobs. One frames the situation as proof he's not "good enough" and spirals into despair. The other tells herself, "This is my preparation season," and eventually flourishes. The facts (joblessness) remain constant; the story transforms the meaning.
+                </p>
+                
+                <p>
+                  The same is true in business. Apple didn't just sell computers; it told the story of rebels and creators who wanted to "Think Different." Nike doesn't just make shoes; it sells the story of grit and victory—"Just Do It." The facts about materials, prices, or distribution matter, but without the right story, they're just products on a shelf.
+                </p>
+                
+                <p>
+                  This is why, at Infinity Network Studio, we exist. We are not just in the business of producing content—we are in the business of crafting narratives that move people. Behind every brand, movement, or idea lies a story waiting to be told in a way that connects. Our mission is to marry creativity with credibility, to use storytelling not as decoration but as transformation.
+                </p>
+                
+                <p>
+                  Because the world doesn't just need more information—it needs stories that inspire action, stories that ignite possibility, and stories that remind us of who we are and what we can become.
+                </p>
+                
+                <p className="font-medium text-primary">
+                  And maybe, just maybe, the right story at the right time can turn another "ordinary" Oladapo into someone who is inspired enough to transcend limits that crush most people's dreams.
                 </p>
               </div>
             </Card>
