@@ -28,9 +28,8 @@ const Hero = () => {
 
           {/* Subheadline */}
           <p className="text-lg text-primary-foreground/80 max-w-3xl mx-auto mb-12 leading-relaxed animate-fade-in">
-            We are Infinity Network Studio — creating bold stories across film, podcasts, and documentaries. 
-            We may be new, but our mission is boundless: to build a studio that amplifies voices, inspires audiences, 
-            and creates opportunities for talent, partners, and investors.
+            At Infinity Network Studio we create bold, inspiring, educational, life-changing (even fun) stories across videos, podcasts, and documentaries. 
+            Our studio amplifies voices, inspires audiences, and creates opportunities for a myriad of people.
           </p>
 
           {/* CTA Buttons */}
