@@ -68,15 +68,9 @@ const Investors = () => {
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
-              Investing in Africa's Creative Economy
+              Africa's Creative Economy
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8 font-medium">
-              Powered by Infinity Network Studio
-            </p>
             <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
-            <h3 className="text-2xl font-bold text-primary mb-6">
-              The New Frontier of Global Growth
-            </h3>
           </div>
 
           {/* Market Overview */}
