@@ -6,11 +6,8 @@ const Talents = () => {
         <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl p-8 md:p-12 mb-16 border border-primary/20">
           <div className="text-center mb-8">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">
-              Welcome to Infinity Network Studio
+              Interested in Fun, Fulfilling, and Financially Rewarding Opportunities (as a freelancer or staff)?
             </h1>
-            <p className="text-xl md:text-2xl text-secondary font-semibold">
-              Where Visionaries Create Tomorrow's Content Today
-            </p>
           </div>
           
           <div className="prose prose-lg mx-auto text-foreground max-w-4xl">
