@@ -70,6 +70,14 @@ const About = () => {
                   That's the secret power of stories—they don't just inform us, they reshape us. A statistic on climate change might make you frown, but a story about a farmer in Kenya who lost his crops to erratic rains makes you care. A chart about rising healthcare costs is abstract, but hearing about a single mother working two jobs just to pay for insulin connects the dots in a visceral way. Facts are the bones, but stories are the flesh that make them human.
                 </p>
                 
+                <div className="flex justify-center my-8">
+                  <img 
+                    src="/lovable-uploads/2ddb6b0c-3061-48fa-85b4-e3470cb30862.png" 
+                    alt="Transform ideas into extraordinary stories - Creative development, production excellence, strategic distribution"
+                    className="max-w-lg w-full h-auto rounded-lg shadow-md"
+                  />
+                </div>
+                
                 <p>
                   History proves this over and over again. Nations have risen and fallen not just because of resources or armies, but because of the stories they told about themselves. America was built on the story of freedom and opportunity. South Africa stitched together a new identity on the story of resilience after apartheid. And in our time, movements like #MeToo and #EndSARS erupted into global consciousness because the right stories were finally told loudly enough to force change. The facts of injustice were always there—but until the stories pierced the world's conscience, nothing shifted.
                 </p>
