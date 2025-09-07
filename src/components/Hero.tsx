@@ -14,10 +14,6 @@ const Hero = () => {
 
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Hero Badge */}
-          <div className="inline-flex items-center px-4 py-2 rounded-full bg-secondary/10 border border-secondary/20 text-secondary font-medium text-sm mb-8 animate-fade-in">
-            🌐 Launching 2025 • First slate in development
-          </div>
 
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 animate-fade-in">
@@ -34,31 +30,12 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 animate-fade-in">
-            <Button variant="secondary" size="lg" className="font-semibold">
-              <Play className="w-5 h-5 mr-2" />
-              Watch Our Vision
-            </Button>
             <Button variant="outline" size="lg" className="font-semibold bg-white/10 border-white/30 text-white hover:bg-white/20">
               Explore Our Story
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
           </div>
 
-          {/* Key Metrics */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-3xl mx-auto animate-fade-in">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-secondary mb-2">2025</div>
-              <div className="text-primary-foreground/70 text-sm">Launching with first slate</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-secondary mb-2">3</div>
-              <div className="text-primary-foreground/70 text-sm">Founders united by passion</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-secondary mb-2">∞</div>
-              <div className="text-primary-foreground/70 text-sm">Global Outlook</div>
-            </div>
-          </div>
         </div>
 
         {/* Audience Pathways */}

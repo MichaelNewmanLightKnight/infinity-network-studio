@@ -90,24 +90,6 @@ const About = () => {
             </Card>
           </div>
 
-          {/* Leadership Team */}
-          <div className="mb-20">
-            <h3 className="text-2xl font-semibold text-primary text-center mb-12">Leadership Team</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {team.map((member, index) => (
-                <Card key={index} className="p-6 hover:shadow-elegant transition-shadow duration-300">
-                  <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-accent rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <Users className="w-8 h-8 text-white" />
-                    </div>
-                    <h4 className="font-semibold text-primary text-lg mb-2">{member.role}</h4>
-                    <p className="text-secondary font-medium text-sm mb-3">{member.responsibility}</p>
-                    <p className="text-muted-foreground text-sm">{member.description}</p>
-                  </div>
-                </Card>
-              ))}
-            </div>
-          </div>
 
           {/* Company Culture */}
           <div>
