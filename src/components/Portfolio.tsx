@@ -3,32 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Film, Mic, Camera, ArrowRight } from "lucide-react";
 
 const Portfolio = () => {
-  const projects = [
-    {
-      title: "The Hustle: Africa's Creative Economy",
-      type: "Documentary Series",
-      status: "In Development",
-      description: "An in-depth exploration of the rapidly evolving creative landscape across Africa, featuring entrepreneurs, artists, and innovators shaping the continent's cultural future.",
-      icon: <Film className="w-8 h-8 text-secondary" />,
-      tags: ["Documentary", "Culture", "Economics"]
-    },
-    {
-      title: "Voices Unbound",
-      type: "Original Podcast",
-      status: "Upcoming",
-      description: "Intimate conversations with storytellers, creators, and visionaries who are breaking barriers and redefining narratives across the African diaspora.",
-      icon: <Mic className="w-8 h-8 text-secondary" />,
-      tags: ["Podcast", "Interviews", "Culture"]
-    },
-    {
-      title: "Branded Campaigns",
-      type: "Creative Partnerships", 
-      status: "Opening 2025",
-      description: "Pilot partnerships with forward-thinking brands looking to connect authentically with diverse audiences through compelling visual storytelling.",
-      icon: <Camera className="w-8 h-8 text-secondary" />,
-      tags: ["Commercial", "Branding", "Strategy"]
-    }
-  ];
+  const projects = [];
 
   return (
     <section id="portfolio" className="py-20 bg-muted/30">
