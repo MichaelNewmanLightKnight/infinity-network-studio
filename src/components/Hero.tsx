@@ -21,8 +21,8 @@ const Hero = () => {
 
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 animate-fade-in">
-            Every idea deserves a{" "}
-            <span className="text-secondary">stage</span>
+            We Craft Compelling Content and{" "}
+            <span className="text-secondary">Scintillating Stories</span>
           </h1>
 
           {/* Dynamic Tagline */}
