@@ -25,11 +25,6 @@ const Hero = () => {
             <span className="text-secondary">Scintillating Stories</span>
           </h1>
 
-          {/* Dynamic Tagline */}
-          <div className="text-xl sm:text-2xl text-primary-foreground/90 font-light mb-4 animate-fade-in">
-            We Craft Compelling Content and{" "}
-            <span className="text-secondary font-semibold">Scintillating Stories</span>
-          </div>
 
           {/* Subheadline */}
           <p className="text-lg text-primary-foreground/80 max-w-3xl mx-auto mb-12 leading-relaxed animate-fade-in">
