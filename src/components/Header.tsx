@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
-import infinityLogo from "@/assets/infinity-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,17 +20,8 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
-            <img 
-              src={infinityLogo} 
-              alt="Infinity Network Studio" 
-              className="h-26 w-auto object-contain"
-            />
-            <span className="font-bold text-lg text-primary hidden sm:block">
-              Infinity Network Studio
-            </span>
-          </Link>
+          {/* Navigation will be left-aligned */}
+          <div></div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
