@@ -44,7 +44,7 @@ const Hero = () => {
         {/* Audience Pathways */}
         <div className="mt-20 max-w-5xl mx-auto">
           <h3 className="text-2xl font-semibold text-primary-foreground text-center mb-12">Choose Your Journey</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
                 title: "Investors",
@@ -57,12 +57,6 @@ const Hero = () => {
                 subtitle: "Be Part of Our Beginning",
                 description: "Join our network of creative professionals",
                 href: "/careers"
-              },
-              {
-                title: "Partners",
-                subtitle: "Let's Build Together",
-                description: "Collaborate on groundbreaking projects",
-                href: "#partnerships"
               },
               {
                 title: "Clients",
