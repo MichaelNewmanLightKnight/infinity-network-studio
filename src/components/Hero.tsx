@@ -14,29 +14,40 @@ const Hero = () => {
       <div className="absolute bottom-40 left-20 w-3 h-3 bg-secondary rounded-full animate-float opacity-50" style={{ animationDelay: '4s' }}></div>
 
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+          
+          {/* Left Content */}
+          <div className="text-center lg:text-left">
+            {/* Main Headline */}
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 animate-fade-in">
+              We Craft Compelling Content and{" "}
+              <span className="text-secondary">Scintillating Stories</span>
+            </h1>
 
-          {/* Main Headline */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 animate-fade-in">
-            We Craft Compelling Content and{" "}
-            <span className="text-secondary">Scintillating Stories</span>
-          </h1>
+            {/* Subheadline */}
+            <p className="text-lg text-primary-foreground/80 mb-8 leading-relaxed animate-fade-in">
+              At Infinity Network Studio we create bold, inspiring, educational, life-changing (even fun) stories across videos, podcasts, and documentaries. 
+              Our studio amplifies voices, inspires audiences, and creates opportunities for a myriad of people.
+            </p>
 
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row items-center lg:items-start lg:justify-start justify-center gap-4 mb-8 animate-fade-in">
+              <Link to="/about">
+                <Button variant="outline" size="lg" className="font-semibold bg-white/10 border-white/30 text-white hover:bg-white/20">
+                  Explore Our Story
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </Button>
+              </Link>
+            </div>
+          </div>
 
-          {/* Subheadline */}
-          <p className="text-lg text-primary-foreground/80 max-w-3xl mx-auto mb-12 leading-relaxed animate-fade-in">
-            At Infinity Network Studio we create bold, inspiring, educational, life-changing (even fun) stories across videos, podcasts, and documentaries. 
-            Our studio amplifies voices, inspires audiences, and creates opportunities for a myriad of people.
-          </p>
-
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 animate-fade-in">
-            <Link to="/about">
-              <Button variant="outline" size="lg" className="font-semibold bg-white/10 border-white/30 text-white hover:bg-white/20">
-                Explore Our Story
-                <ArrowRight className="w-5 h-5 ml-2" />
-              </Button>
-            </Link>
+          {/* Right Image */}
+          <div className="relative animate-fade-in">
+            <img 
+              src="/lovable-uploads/7bfe919d-ee26-48d9-8748-dde30cfa12ac.png" 
+              alt="Infinity Network Studio creative team with film equipment, microphones, and cameras"
+              className="w-full h-auto rounded-2xl shadow-2xl"
+            />
           </div>
 
         </div>
