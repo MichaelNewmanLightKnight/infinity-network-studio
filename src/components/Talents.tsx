@@ -183,6 +183,7 @@ const Talents = () => {
               <div>
                 <h4 className="text-xl font-medium text-primary mb-2">Purpose & Profit:</h4>
                 <p className="text-lg leading-relaxed">Yes, we build commercially successful content—but we never forget that our core purpose is cultural empowerment.</p>
+                <p className="text-lg leading-relaxed mt-4">We employ a hybrid work mode. That is to say we work both online (remotely) and in our office. You may not have to be in the office more than twice or thrice a week. But now and then, when we have high workloads, you will be required to come to the office to work or go to a site where we might be interviewing a guest or shooting a video or documentary. But most weeks, you'll only come in twice or thrice.</p>
               </div>
             </div>
           </div>
