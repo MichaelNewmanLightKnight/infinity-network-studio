@@ -9,19 +9,19 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6 text-secondary" />,
       title: "Email",
-      details: "hello@infinitynetworkstudio.com",
+      details: "info@infinityns.com.ng",
       description: "We'd love to hear from you"
     },
     {
       icon: <Phone className="w-6 h-6 text-secondary" />,
       title: "Phone", 
-      details: "+27 (0) 11 123 4567",
-      description: "Available Mon-Fri, 9AM-6PM SAST"
+      details: "08156783478",
+      description: "Available Mon-Fri, 9AM-6PM"
     },
     {
       icon: <MapPin className="w-6 h-6 text-secondary" />,
       title: "Location",
-      details: "Johannesburg, South Africa",
+      details: "Low-Cost Housing Estate, Ikorodu, Lagos, Nigeria",
       description: "Africa-focused, globally minded"
     }
   ];
@@ -41,9 +41,9 @@ const Contact = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
+            <h1 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
               Let's Start Something New Together
-            </h2>
+            </h1>
             <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               We'd love to hear from you — whether you're an investor, a creative, a client, or a supporter. 

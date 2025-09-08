@@ -68,7 +68,7 @@ const Services = () => {
         <div className="max-w-7xl mx-auto">
           {/* Hero Header */}
           <div className="text-center mb-20">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary mb-8 leading-tight">
+            <h1 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
               Transform Ideas Into 
               <span className="gradient-hero bg-clip-text text-transparent block mt-2">
                 Extraordinary Stories

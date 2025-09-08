@@ -11,9 +11,9 @@ const Portfolio = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
+            <h1 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
               Our Work in Progress
-            </h2>
+            </h1>
             <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               We're at the start our journey, this section will highlight works in progress 

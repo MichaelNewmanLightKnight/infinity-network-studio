@@ -44,9 +44,9 @@ const About = () => {
         <div className="max-w-4xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
+            <h1 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
               Our Story & Vision
-            </h2>
+            </h1>
             <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
           </div>
 
@@ -63,7 +63,7 @@ const About = () => {
               </div>
               <div className="text-lg text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                  Oladapo always thought of himself as an ordinary man. He worked, paid his bills, and scrolled endlessly on his phone at night. But one evening, he stumbled upon a documentary about how a small group of young Africans had built a tech company that was bought by Stripe for $200million. It wasn't just the glossy shots or the polished interviews that caught him—it was the story. Suddenly, he saw people who looked like him doing extraordinary things. The facts of their revenue growth, market expansion, and global partnerships gave the story credibility, but it was the narrative that shifted something deep inside Oladapo: maybe this could be me too.
+                  Oladapo always thought of himself as an ordinary man. He worked, paid his bills, and scrolled endlessly on his phone at night. But one evening, he stumbled upon a documentary about how two young Nigerians built Paystack, a fintech company that was acquired by Stripe for $200million. It wasn't just the glossy shots or the polished interviews that caught him—it was the story. Suddenly, he saw people who looked like him doing extraordinary things. The facts of their revenue growth, market expansion, and global partnerships gave the story credibility, but it was the narrative that shifted something deep inside Oladapo: maybe this could be me too.
                 </p>
                 
                 <p>

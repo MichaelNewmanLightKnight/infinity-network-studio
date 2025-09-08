@@ -5,7 +5,7 @@ const Talents = () => {
         {/* Prominent Welcome Section */}
         <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-2xl p-8 md:p-12 mb-16 border border-primary/20">
           <div className="text-center mb-8">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">
+            <h1 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
               Interested in Fun, Fulfilling, and Financially Rewarding Opportunities (as a freelancer or staff)?
             </h1>
           </div>
@@ -38,9 +38,9 @@ const Talents = () => {
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <div className="bg-card rounded-xl p-6">
-                <h4 className="text-xl font-bold text-secondary mb-4">1. Graphics, Web & Animation Designer</h4>
+                <h4 className="text-xl font-bold text-secondary mb-4">1. Graphics & Animation Designer</h4>
                 <p className="text-base leading-relaxed">
-                  Transform ideas into stunning visual experiences. Lead our brand identity while creating compelling graphics, animations, and digital assets that bring stories to life. Master of Adobe Creative Suite with web design expertise, you'll shape how the world sees our content.
+                  Transform ideas into stunning visual experiences. Lead our brand identity while creating compelling graphics, animations, and digital assets that bring stories to life. Master of Adobe Creative Suite, you'll shape how the world sees our content.
                 </p>
               </div>
               

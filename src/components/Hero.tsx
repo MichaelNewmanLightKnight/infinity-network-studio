@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="absolute top-40 right-20 w-6 h-6 bg-secondary rounded-full animate-float opacity-40" style={{ animationDelay: '2s' }}></div>
       <div className="absolute bottom-40 left-20 w-3 h-3 bg-secondary rounded-full animate-float opacity-50" style={{ animationDelay: '4s' }}></div>
 
-      <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16">
+      <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-16">
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           
           {/* Left Content */}
@@ -44,8 +44,8 @@ const Hero = () => {
           {/* Right Image */}
           <div className="relative animate-fade-in">
             <img 
-              src="/lovable-uploads/7bfe919d-ee26-48d9-8748-dde30cfa12ac.png" 
-              alt="Infinity Network Studio creative team with film equipment, microphones, and cameras"
+              src="/lovable-uploads/53747711-4a3b-44e2-a035-061ac26b2b38.png" 
+              alt="Infinity Network Studio creative team collaborating with professional video and audio equipment"
               className="w-full h-auto rounded-2xl shadow-2xl"
             />
           </div>

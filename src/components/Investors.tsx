@@ -67,9 +67,9 @@ const Investors = () => {
         <div className="max-w-6xl mx-auto">
           {/* Hero Section */}
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
+            <h1 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
               Africa's Creative Economy
-            </h2>
+            </h1>
             <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
           </div>
 
