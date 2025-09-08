@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
-import infinityLogo from "@/assets/infinity-logo.png";
+import infinityLogo from "@/assets/infinity-logo-new.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,9 +25,9 @@ const Header = () => {
           <div className="flex items-center">
             <Link to="/">
               <img 
-                src={infinityLogo} 
+                src="/lovable-uploads/e085235e-900a-4b07-9a77-943f50bf4cc3.png" 
                 alt="Infinity Network Studio" 
-                className="h-14 w-auto"
+                className="h-14 w-auto animate-float"
               />
             </Link>
           </div>
