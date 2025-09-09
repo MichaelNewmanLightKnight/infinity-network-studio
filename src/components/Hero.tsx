@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           
           {/* Left Content */}
-          <div className="text-center lg:text-left lg:-mt-8">
+          <div className="text-center lg:text-left">
             {/* Main Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 animate-fade-in">
               We Craft Compelling Content and{" "}
