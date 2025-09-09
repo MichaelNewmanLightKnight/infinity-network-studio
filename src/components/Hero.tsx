@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="absolute bottom-40 left-20 w-3 h-3 bg-secondary rounded-full animate-float opacity-50" style={{ animationDelay: '4s' }}></div>
 
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-16">
-        <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-12 items-start max-w-6xl mx-auto">
           
           {/* Left Content */}
           <div className="text-center lg:text-left">
