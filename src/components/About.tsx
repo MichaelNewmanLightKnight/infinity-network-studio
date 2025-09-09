@@ -44,8 +44,8 @@ const About = () => {
         <div className="max-w-4xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h1 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
-              Our Story & Vision
+            <h1 className="text-3xl sm:text-4xl font-bold text-primary mb-6 text-center">
+              Our Story
             </h1>
             <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
           </div>
