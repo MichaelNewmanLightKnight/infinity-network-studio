@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Header from "@/components/Header";
 import Portfolio from "@/components/Portfolio";
+import Footer from "@/components/Footer";
 
 const PortfolioPage = () => {
   useEffect(() => {
@@ -12,11 +13,12 @@ const PortfolioPage = () => {
   }, []);
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen flex flex-col">
       <Header />
-      <main>
+      <main className="flex-1">
         <Portfolio />
       </main>
+      <Footer />
     </div>
   );
 };
