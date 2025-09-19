@@ -1,9 +1,9 @@
-name: Deploy to Go54
+name: Build and Deploy to cPanel
 
 on:
   push:
     branches:
-      - main   # or master, depending on your repo
+      - main   # or master, whichever is your default
 
 jobs:
   build-and-deploy:
@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 18
 
       - name: Install dependencies
         run: npm install
@@ -25,12 +25,10 @@ jobs:
         run: npm run build
 
       - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASS }}
-          protocol: ftp
-          local-dir: dist
-          server-dir: public_html
-          log-level: verbose
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist   # change to ./build if Create React App
+          server-dir: ${{ secrets.FTP_PATH }}
