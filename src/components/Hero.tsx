@@ -27,8 +27,7 @@ const Hero = () => {
 
             {/* Subheadline */}
             <p className="text-lg text-primary-foreground/80 mb-8 leading-relaxed animate-fade-in">
-              At Infinity Network Studio we create bold, inspiring, educational, life-changing (even fun) stories across videos, podcasts, and documentaries. 
-              Our studio amplifies voices, inspires audiences, and creates opportunities for a myriad of people.
+              At Infinity Network Studio we create bold, inspiring, educational, life-changing (even fun) stories. We employ captivating videos, podcasts, text, and documentaries. Our studio amplifies voices, inspires audiences, and creates opportunities for a myriad of people.
             </p>
 
             {/* CTA Buttons */}
