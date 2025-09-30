@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Play } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import projectsHero from "@/assets/projects-hero.jpg";
 
 const Hero = () => {
   return (
@@ -52,54 +53,39 @@ const Hero = () => {
 
         </div>
 
-        {/* Audience Pathways */}
-        <div className="mt-20 max-w-5xl mx-auto">
-          <h3 className="text-2xl font-semibold text-primary-foreground text-center mb-12">Choose Your Journey</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              {
-                title: "Investors",
-                subtitle: "See the Opportunity",
-                description: "Be part of Africa's creative future from day one",
-                href: "/investors"
-              },
-              {
-                title: "Careers",
-                subtitle: "Be Part of Our Beginning",
-                description: "Join our network of creative professionals",
-                href: "/careers"
-              },
-              {
-                title: "Services",
-                subtitle: "Explore What We Can Do",
-                description: "Discover our creative capabilities",
-                href: "/services"
-              }
-            ].map((pathway, index) => (
-              pathway.href.startsWith('/') ? (
-                <Link
-                  key={pathway.title}
-                  to={pathway.href}
-                  className="group p-6 rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105"
-                >
-                  <h4 className="font-semibold text-primary-foreground mb-1">{pathway.title}</h4>
-                  <div className="text-secondary text-sm font-medium mb-2">{pathway.subtitle}</div>
-                  <p className="text-primary-foreground/70 text-sm">{pathway.description}</p>
-                  <ArrowRight className="w-4 h-4 text-secondary mt-3 group-hover:translate-x-1 transition-transform" />
+        {/* Projects We are Working On */}
+        <div className="mt-24 max-w-6xl mx-auto">
+          <div className="text-center mb-12 animate-fade-in">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary-foreground mb-4">
+              Projects We're <span className="text-secondary">Working On</span>
+            </h2>
+            <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
+              From compelling documentaries to captivating podcasts, discover the stories we're bringing to life
+            </p>
+          </div>
+          
+          <div className="relative rounded-2xl overflow-hidden shadow-elegant animate-fade-in">
+            <img 
+              src={projectsHero}
+              alt="Infinity Network Studio projects in production featuring film equipment and creative team"
+              className="w-full h-auto object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end">
+              <div className="p-8 sm:p-12">
+                <h3 className="text-2xl sm:text-3xl font-bold text-white mb-3">
+                  Bold Stories in Production
+                </h3>
+                <p className="text-white/90 text-lg mb-6 max-w-2xl">
+                  Exploring untold narratives across Africa and beyond, creating content that inspires, educates, and transforms
+                </p>
+                <Link to="/portfolio">
+                  <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold">
+                    View All Projects
+                    <ArrowRight className="w-5 h-5 ml-2" />
+                  </Button>
                 </Link>
-              ) : (
-                <a
-                  key={pathway.title}
-                  href={pathway.href}
-                  className="group p-6 rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105"
-                >
-                  <h4 className="font-semibold text-primary-foreground mb-1">{pathway.title}</h4>
-                  <div className="text-secondary text-sm font-medium mb-2">{pathway.subtitle}</div>
-                  <p className="text-primary-foreground/70 text-sm">{pathway.description}</p>
-                  <ArrowRight className="w-4 h-4 text-secondary mt-3 group-hover:translate-x-1 transition-transform" />
-                </a>
-              )
-            ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>
