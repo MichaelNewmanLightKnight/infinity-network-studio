@@ -4,16 +4,16 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 const OurTeam = () => {
   const directors = [
     {
-      role: "Director of Growth and Operations",
-      initials: "GO"
+      role: "Director of Strategic Alliances",
+      initials: "SA"
     },
     {
       role: "Director of Creative Projects",
       initials: "CP"
     },
     {
-      role: "Director of Strategic Alliances",
-      initials: "SA"
+      role: "Director of Growth and Operations",
+      initials: "GO"
     }
   ];
 
