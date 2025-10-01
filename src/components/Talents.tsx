@@ -2,6 +2,10 @@ import teamCollabImage from "@/assets/careers-team-collab.jpg";
 import productionImage from "@/assets/careers-production.jpg";
 import visionImage from "@/assets/careers-vision.jpg";
 import cultureImage from "@/assets/careers-culture.jpg";
+import graphicsDesignerImage from "@/assets/role-graphics-designer.jpg";
+import videoEditorImage from "@/assets/role-video-editor.jpg";
+import videographerImage from "@/assets/role-videographer.jpg";
+import presenterImage from "@/assets/role-presenter.jpg";
 
 const Talents = () => {
   return (
@@ -51,32 +55,68 @@ const Talents = () => {
             </div>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div className="bg-card rounded-xl p-6">
-                <h4 className="text-xl font-bold text-secondary mb-4">1. Graphics & Animation Designer</h4>
-                <p className="text-base leading-relaxed">
-                  Transform ideas into stunning visual experiences. Lead our brand identity while creating compelling graphics, animations, and digital assets that bring stories to life. Master of Adobe Creative Suite, you'll shape how the world sees our content.
-                </p>
+              <div className="bg-card rounded-xl overflow-hidden">
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={graphicsDesignerImage} 
+                    alt="Graphics and Animation Designer creative workspace" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h4 className="text-xl font-bold text-secondary mb-4">1. Graphics & Animation Designer</h4>
+                  <p className="text-base leading-relaxed">
+                    Transform ideas into stunning visual experiences. Lead our brand identity while creating compelling graphics, animations, and digital assets that bring stories to life. Master of Adobe Creative Suite, you'll shape how the world sees our content.
+                  </p>
+                </div>
               </div>
               
-              <div className="bg-card rounded-xl p-6">
-                <h4 className="text-xl font-bold text-secondary mb-4">2. Video & Audio Editor</h4>
-                <p className="text-base leading-relaxed">
-                  Be the architect of our sonic and visual narratives. Craft seamless edits that elevate raw footage into cinematic masterpieces. Your technical mastery and storytelling instincts will define the quality that sets us apart.
-                </p>
+              <div className="bg-card rounded-xl overflow-hidden">
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={videoEditorImage} 
+                    alt="Video and Audio Editor workspace with timelines and waveforms" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h4 className="text-xl font-bold text-secondary mb-4">2. Video & Audio Editor</h4>
+                  <p className="text-base leading-relaxed">
+                    Be the architect of our sonic and visual narratives. Craft seamless edits that elevate raw footage into cinematic masterpieces. Your technical mastery and storytelling instincts will define the quality that sets us apart.
+                  </p>
+                </div>
               </div>
               
-              <div className="bg-card rounded-xl p-6">
-                <h4 className="text-xl font-bold text-secondary mb-4">3. Videographer/Camera Operator</h4>
-                <p className="text-base leading-relaxed">
-                  Capture the moments that matter. Your lens will be the first step in creating content that moves audiences. From intimate interviews to dynamic documentaries, you'll bring technical excellence and artistic vision to every shot.
-                </p>
+              <div className="bg-card rounded-xl overflow-hidden">
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={videographerImage} 
+                    alt="Videographer camera operator with cinematic lighting" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h4 className="text-xl font-bold text-secondary mb-4">3. Videographer/Camera Operator</h4>
+                  <p className="text-base leading-relaxed">
+                    Capture the moments that matter. Your lens will be the first step in creating content that moves audiences. From intimate interviews to dynamic documentaries, you'll bring technical excellence and artistic vision to every shot.
+                  </p>
+                </div>
               </div>
               
-              <div className="bg-card rounded-xl p-6">
-                <h4 className="text-xl font-bold text-secondary mb-4">4. Female Presenter/Host</h4>
-                <p className="text-base leading-relaxed">
-                  Become the voice that connects with millions. Lead conversations that matter, conduct compelling interviews, and represent our brand with authenticity and charisma. Your presence will be the bridge between our stories and our audience.
-                </p>
+              <div className="bg-card rounded-xl overflow-hidden">
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={presenterImage} 
+                    alt="Female presenter and host with microphone" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h4 className="text-xl font-bold text-secondary mb-4">4. Female Presenter/Host</h4>
+                  <p className="text-base leading-relaxed">
+                    Become the voice that connects with millions. Lead conversations that matter, conduct compelling interviews, and represent our brand with authenticity and charisma. Your presence will be the bridge between our stories and our audience.
+                  </p>
+                </div>
               </div>
             </div>
 
