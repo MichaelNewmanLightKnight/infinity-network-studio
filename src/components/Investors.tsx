@@ -183,15 +183,6 @@ const Investors = () => {
             </div>
           </div>
 
-          {/* Image 3 - Film Production */}
-          <div className="mb-16 rounded-lg overflow-hidden shadow-elegant">
-            <img 
-              src={africaFilmProduction} 
-              alt="Professional film production set in Africa with crew and equipment"
-              className="w-full h-[400px] object-cover"
-            />
-          </div>
-
           {/* Investor Opportunity */}
           <div className="mb-16">
             <Card className="p-8 shadow-elegant">
