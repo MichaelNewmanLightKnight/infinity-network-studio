@@ -57,13 +57,6 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden lg:flex items-center space-x-4">
-            <Button variant="accent" size="sm">
-              Get Started
-            </Button>
-          </div>
-
           {/* Mobile Menu Button */}
           <Button
             variant="ghost"
@@ -100,9 +93,6 @@ const Header = () => {
                   </Link>
                 )
               ))}
-              <Button variant="accent" size="sm" className="mt-4 w-fit">
-                Get Started
-              </Button>
             </nav>
           </div>
         )}
