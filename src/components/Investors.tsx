@@ -13,7 +13,7 @@ const Investors = () => {
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
-              Africa's Creative Economy: Present & Accelerating
+              Where Culture Meets Capital: Africa's Creative Revolution
             </h1>
             <div className="w-20 h-1 bg-secondary mx-auto mb-8"></div>
           </div>
