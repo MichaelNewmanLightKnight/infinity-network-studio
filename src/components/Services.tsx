@@ -1,12 +1,13 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Lightbulb, Video, Edit, Share2, ArrowRight, Sparkles, Film, Rocket } from "lucide-react";
+import { Palette, Clapperboard, Wand2, TrendingUp, ArrowRight } from "lucide-react";
+import servicesHero from "@/assets/services-hero.jpg";
 
 const Services = () => {
   const services = [
     {
       emoji: "🎭",
-      icon: <Lightbulb className="w-10 h-10 text-secondary" />,
+      icon: <Palette className="w-10 h-10 text-secondary" />,
       title: "Creative Development",
       subtitle: "Where imagination meets strategy",
       description: "Turn fleeting ideas into compelling narratives that captivate your audience from the first frame to the final fade.",
@@ -20,7 +21,7 @@ const Services = () => {
     },
     {
       emoji: "🎬",
-      icon: <Video className="w-10 h-10 text-secondary" />,
+      icon: <Clapperboard className="w-10 h-10 text-secondary" />,
       title: "Production Excellence",
       subtitle: "Professional craft meets creative passion",
       description: "From intimate podcasts to cinematic productions, we deliver Hollywood-quality results with boutique studio care and attention.",
@@ -34,7 +35,7 @@ const Services = () => {
     },
     {
       emoji: "✨",
-      icon: <Edit className="w-10 h-10 text-secondary" />,
+      icon: <Wand2 className="w-10 h-10 text-secondary" />,
       title: "Post-Production Magic",
       subtitle: "Where good content becomes unforgettable",
       description: "In the digital cutting room, stories find their soul. Our post-production team doesn't just edit—they elevate, refine, and polish until your content gleams.",
@@ -48,7 +49,7 @@ const Services = () => {
     },
     {
       emoji: "🚀",
-      icon: <Share2 className="w-10 h-10 text-secondary" />,
+      icon: <TrendingUp className="w-10 h-10 text-secondary" />,
       title: "Strategic Distribution",
       subtitle: "Getting your story into the right hands",
       description: "Creating amazing content is just the beginning. We ensure your stories find their perfect audience and make maximum impact in the crowded digital landscape.",
@@ -66,6 +67,15 @@ const Services = () => {
     <section id="services" className="py-20 bg-gradient-to-br from-background via-background to-secondary/5">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
+          {/* Hero Image */}
+          <div className="mb-16 rounded-lg overflow-hidden shadow-elegant">
+            <img 
+              src={servicesHero} 
+              alt="Creative professionals collaborating in modern studio workspace"
+              className="w-full h-[500px] object-cover"
+            />
+          </div>
+
           {/* Hero Header */}
           <div className="text-center mb-20">
             <h1 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
