@@ -1,3 +1,8 @@
+import teamCollabImage from "@/assets/careers-team-collab.jpg";
+import productionImage from "@/assets/careers-production.jpg";
+import visionImage from "@/assets/careers-vision.jpg";
+import cultureImage from "@/assets/careers-culture.jpg";
+
 const Talents = () => {
   return (
     <section id="careers" className="py-24 bg-background">
@@ -23,6 +28,15 @@ const Talents = () => {
             <p className="text-lg leading-relaxed mb-8 text-accent font-medium">
               As we launch this exciting journey, we're seeking exceptional talent to join our founding team – individuals who don't just want a job, but crave the opportunity to build something revolutionary from the ground up.
             </p>
+
+            {/* Team Collaboration Image */}
+            <div className="rounded-2xl overflow-hidden mb-12 shadow-lg">
+              <img 
+                src={teamCollabImage} 
+                alt="Creative team collaborating at Infinity Network Studio" 
+                className="w-full h-auto object-cover"
+              />
+            </div>
             
             <div className="bg-card rounded-xl p-6 mb-8">
               <h3 className="text-2xl font-bold text-primary mb-6">Why Choose Infinity Network Studio?</h3>
@@ -64,6 +78,15 @@ const Talents = () => {
                   Become the voice that connects with millions. Lead conversations that matter, conduct compelling interviews, and represent our brand with authenticity and charisma. Your presence will be the bridge between our stories and our audience.
                 </p>
               </div>
+            </div>
+
+            {/* Production Image */}
+            <div className="rounded-2xl overflow-hidden mb-12 shadow-lg">
+              <img 
+                src={productionImage} 
+                alt="Professional video production at Infinity Network Studio" 
+                className="w-full h-auto object-cover"
+              />
             </div>
             
             <div className="bg-gradient-to-r from-accent/10 to-primary/10 rounded-xl p-6 mb-8">
@@ -122,6 +145,15 @@ const Talents = () => {
           </div>
         </div>
 
+        {/* Vision Image */}
+        <div className="rounded-2xl overflow-hidden mb-16 shadow-lg">
+          <img 
+            src={visionImage} 
+            alt="Africa's creative economy going global" 
+            className="w-full h-auto object-cover"
+          />
+        </div>
+
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
             Why Work at Infinity Network Studio?
@@ -159,6 +191,15 @@ const Talents = () => {
             <p className="text-lg leading-relaxed mt-4">
               We run like a startup—fast, lean, and fearless—but we think like a global movement, connecting Africa to Hollywood, London, and beyond.
             </p>
+          </div>
+
+          {/* Culture Image */}
+          <div className="rounded-2xl overflow-hidden my-12 shadow-lg">
+            <img 
+              src={cultureImage} 
+              alt="Creative workspace culture at Infinity Network Studio" 
+              className="w-full h-auto object-cover"
+            />
           </div>
 
           <div>
