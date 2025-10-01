@@ -1,5 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Users, Target, Globe } from "lucide-react";
+import appleImage from "@/assets/apple-think-different.jpg";
+import nikeImage from "@/assets/nike-just-do-it.jpg";
 
 const About = () => {
   const values = [
@@ -89,6 +91,23 @@ const About = () => {
                 <p>
                   The same is true in business. Apple didn't just sell computers; it told the story of rebels and creators who wanted to "Think Different." Nike doesn't just make shoes; it sells the story of grit and victory—"Just Do It." The facts about materials, prices, or distribution matter, but without the right story, they're just products on a shelf.
                 </p>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+                  <div className="overflow-hidden rounded-lg shadow-md">
+                    <img 
+                      src={appleImage}
+                      alt="Apple's Think Different philosophy - innovation and creative rebellion"
+                      className="w-full h-auto object-cover"
+                    />
+                  </div>
+                  <div className="overflow-hidden rounded-lg shadow-md">
+                    <img 
+                      src={nikeImage}
+                      alt="Nike's Just Do It spirit - determination, grit, and victory"
+                      className="w-full h-auto object-cover"
+                    />
+                  </div>
+                </div>
                 
                 <p>
                   This is why, at Infinity Network Studio, we exist. We are not just in the business of producing content—we are in the business of crafting narratives that move people. Behind every brand, movement, or idea lies a story waiting to be told in a way that connects. Our mission is to marry creativity with credibility, to use storytelling not as decoration but as transformation.
