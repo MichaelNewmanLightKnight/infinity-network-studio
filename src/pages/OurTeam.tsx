@@ -1,14 +1,14 @@
 import { useEffect } from "react";
 import Header from "@/components/Header";
-import Investors from "@/components/Investors";
+import OurTeam from "@/components/OurTeam";
 import Footer from "@/components/Footer";
 
-const InvestorsPage = () => {
+const OurTeamPage = () => {
   useEffect(() => {
-    document.title = "Investment - Infinity Network Studio";
+    document.title = "Our Team - Infinity Network Studio";
     document.querySelector('meta[name="description"]')?.setAttribute(
       "content", 
-      "Investment opportunities in Africa's creative economy. Join us in building the future of global cultural content."
+      "Meet the talented team behind Infinity Network Studio. Creative professionals dedicated to transforming ideas into extraordinary stories."
     );
   }, []);
 
@@ -16,11 +16,11 @@ const InvestorsPage = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1">
-        <Investors />
+        <OurTeam />
       </main>
       <Footer />
     </div>
   );
 };
 
-export default InvestorsPage;
+export default OurTeamPage;
