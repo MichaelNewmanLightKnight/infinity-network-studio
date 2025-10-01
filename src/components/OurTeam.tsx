@@ -64,7 +64,6 @@ const OurTeam = () => {
                       </AvatarFallback>
                     </Avatar>
                     <h3 className="text-lg font-semibold text-primary">{director.role}</h3>
-                    <p className="text-sm text-muted-foreground mt-2">Position Available</p>
                   </CardContent>
                 </Card>
               ))}
