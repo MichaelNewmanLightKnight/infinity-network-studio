@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import projectsHero from "@/assets/projects-hero.jpg";
+import heroTeam from "@/assets/hero-team.png";
 
 const Hero = () => {
   return (
@@ -44,7 +45,7 @@ const Hero = () => {
           {/* Right Image */}
           <div className="relative animate-fade-in">
             <img 
-              src="/lovable-uploads/53747711-4a3b-44e2-a035-061ac26b2b38.png" 
+              src={heroTeam} 
               alt="Infinity Network Studio creative team collaborating with professional video and audio equipment"
               className="w-full h-auto rounded-2xl shadow-2xl"
             />
