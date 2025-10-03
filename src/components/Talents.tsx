@@ -180,6 +180,9 @@ const Talents = () => {
                   This is more than a job opportunity – it's your invitation to be part of something extraordinary. Join us in creating content that doesn't just entertain, but inspires, educates, and transforms.
                 </p>
                 <p className="text-xl font-bold mt-4">Apply Today.</p>
+                <p className="text-lg mt-4">
+                  Send Your Application to <a href="mailto:info@infinityns.com.ng" className="text-primary-foreground underline hover:no-underline">info@infinityns.com.ng</a> latest by 10th October 2025.
+                </p>
               </div>
             </div>
           </div>
